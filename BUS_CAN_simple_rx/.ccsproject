@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVersion value="9.2.0"/>
+	<deviceVariant value="Cortex M.TM4C123GH6PM"/>
+	<deviceFamily value="TMS470"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="18.12.3.LTS"/>
+	<isElfFormat value="true"/>
+	<connection value="common/targetdb/connections/Stellaris_ICDI_Connection.xml"/>
+	<linkerCommandFile value="TM4C123GH6PM.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=com.ti.rtsc.SYSBIOS.example_40,type=rtsc,products=com.ti.rtsc.SYSBIOS,target=ti.targets.arm.elf.M4F,platform=ti.platforms.tiva:$DeviceId$,buildProfile=release,isHybrid=true,configuroOptions=--compileOptions &quot;-g&quot;"/>
+	<filesToOpen value=""/>
+	<isTargetManual value="false"/>
+	<origin value="C:/Users/jmvid/Desktop/Google_DRIVE/LSE/trabajo_asignatura/BUS_CAN"/>
+	<activeTargetConfiguration value="targetConfigs/Tiva TM4C123GH6PM.ccxml"/>
+</projectOptions>
