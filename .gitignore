@@ -50,3 +50,40 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# General IDE files for Code Composer Studio
+.metadata/
+.jxbrowser-data/
+.ccs/
+*.launch
+*.stackdump
+
+# Build output directories and object files
+Debug/
+Release/
+*.out
+*.d
+*.map
+*.bin
+*.elf
+*.o
+*.a
+
+# Compiler-generated files
+*.dep
+*.obj
+
+# Temporary files and logs
+*.log
+*.bak
+*.swp
+*.swo
+
+# CCS-specific settings
+.project
+.cproject
+.settings/
+
+# Other IDE/OS specific files
+.DS_Store  # For macOS
+Thumb.db   # For Windows
